@@ -46,6 +46,13 @@
   .cards{
     flex-direction: column;
   }
+  .carousel{
+    margin: 1rem 0rem;
+
+  }
+  .carousel img{
+    border-radius: 0.2rem;
+  }
 }
 
 .footer-padding {
