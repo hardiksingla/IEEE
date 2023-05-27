@@ -1,0 +1,59 @@
+.body{
+  font-family: "roboto" , sans-serif;
+}
+.carousel {
+  margin: 2rem 3rem;
+}
+.carousel img{
+  border-radius: 2rem;
+}
+.favourits{
+
+  margin: 5rem;
+  background-image: linear-gradient(rgb(234, 134, 81), rgb(193, 60, 25)) ;
+  padding: 2rem;
+}
+.cards{
+  display: flex;
+  justify-content: space-around;
+  justify-self: baseline;
+  align-items: center;
+  gap: 1em;
+}
+.card{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.card img{
+  width: 90%;
+  height: 90%;
+  align-self: center;
+  object-fit: fill;
+  object-position: 25% 25%;
+}
+.card h5{
+  margin: 0.5rem 0;
+  max-width: fit-content;
+}
+.card {
+  margin: 0.5rem 0;
+  max-width: fit-content;
+}
+@media (max-width: 48rem)  {
+  .cards{
+    flex-direction: column;
+  }
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
